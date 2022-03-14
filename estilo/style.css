@@ -36,13 +36,58 @@ img {
     height: 100vh;
 }
 
-#titulo-proj {
+/* portifolio */
+
+#titulo-port {
     text-align: center;
-    font-size: 2em;
-    margin: 20px;
+    font-size: 3em;
+    margin: 50px;
 }
 
-.portfolio {
+ .portfolio {
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    /* background: gray; */
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+ .boxs {
+    background: #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    /* justify-content: space-around; */
+}
+
+section img{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.boxs-texto  {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+     /* footer */
+.footer, .parag {
     display: flex;
-    width: 100%;
+    background: #111;
+    color: white;
+    justify-content: center;
+    align-items: center;   
+}
+
+.parag {
+    display: flex;
+    align-items: center;
 }
