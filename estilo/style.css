@@ -13,14 +13,14 @@
     background: #111;
     color: #eee;
     width: 100%;
-    height: 80px;
+    height: 60px;
     align-items: center;
     justify-content: space-between;
 }
 
 h1 {
     padding: 10px;
-    font-size: 2.5em
+    font-size: 2.0em
 }
 
 .nav, a, ul, li {
@@ -46,7 +46,7 @@ img {
 
  .portfolio {
     width: 95%;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
     /* background: gray; */
     border-radius: 5px;
@@ -60,10 +60,9 @@ img {
     border-radius: 5px;
     margin: 10px;
     text-align: center;
-    /* justify-content: space-around; */
 }
 
-section img{
+section  img {
     width: 160px;
     height: 160px;
     margin: 0 auto;
@@ -71,23 +70,32 @@ section img{
     object-fit: cover;
 }
 
-.boxs-texto  {
-    text-align: center;
-    justify-content: center;
+
+.boxs-texto > p {
+    padding: 10px;
+}
+
+.boxs-texto > p a {
+    font-size: 1.4em;
     padding: 20px;
+    justify-content: center;
+}
+
+.boxs-texto > p a:hover {
+    color: rgba(39, 39, 190, 0.705);
+    transition: .4s ease;
+    cursor: pointer;
 }
 
 
      /* footer */
-.footer, .parag {
+.footer .parag {
+    margin-top: 20px;
     display: flex;
     background: #111;
     color: white;
     justify-content: center;
-    align-items: center;   
-}
+    align-items: center;  
+    width: 100%;
 
-.parag {
-    display: flex;
-    align-items: center;
 }
