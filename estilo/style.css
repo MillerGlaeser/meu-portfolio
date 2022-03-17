@@ -99,3 +99,26 @@ section  img {
     width: 100%;
 
 }
+
+@media (max-width: 710px) {
+    h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    img {
+        height: 535px;
+    }
+    
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .boxs {
+        width: 70%;
+        margin:  0 auto;
+    }
+
+}
